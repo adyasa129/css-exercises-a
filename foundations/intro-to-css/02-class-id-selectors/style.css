@@ -1,0 +1,19 @@
+p{
+    color:black;
+    font-family :"Verdana","DejaVu Sans",sans-serif;
+    background-color: rgba(239, 135, 135, 0.9);
+    
+}
+#no2{
+    color:#0000ff;
+    font-size:36px;
+}
+.no3,
+#no4{
+    font-size:24px;
+}
+#no4{
+    background-color:#9df49d;
+    color:black;   
+    font-weight:1000;
+}

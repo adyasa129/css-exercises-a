@@ -1,27 +1,51 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing: border-box;
+  
+ 
 }
 
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 16px auto;/*here the margin is auto so that the card is centered in the page */
+  padding :8px;  
+
 }
 
 .title {
   background: #e3f4ff;
+  padding : 8px;
+  font-size: 16px; 
+  margin-bottom:8px; 
+  /* here changed the margin bottom coz there needs to be space between two box */
+
 }
 
 .content {
   background: #e3f4ff;
+  /* no need to margin here anymore */
+  padding : 16px 8px; /* the padding is for first top and bottom then left and right */
+ 
 }
 
 .button-container {
+  text-align:center;
   background: #e3f4ff;
+  margin-top: 8px;  
+    padding:8px;
+    /* added margin on top to give space between two sections  */
+    /* padding is for both the button and the content but not inside the button */
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 24px;
+   margin : 0 auto; 
+   /* here the margin is auto so that the button is centered in the page */
+/* but in main solution the answer is 0 auto for margin because the top bottom has to be zero 
+as per the final outcome visual */
 }
